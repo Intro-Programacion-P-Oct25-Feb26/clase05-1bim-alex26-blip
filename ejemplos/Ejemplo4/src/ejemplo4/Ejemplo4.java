@@ -24,14 +24,15 @@ public class Ejemplo4 {
         
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
-        //F           or          //F         >>>>> F
+        //F           or          //F         >>>>> F esta comparando loja machala y guayaquil 
         if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
                 ciudad.equals("Guayaquil")) {
+            // esta es la palabra or ||
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
         }
-
+   //
     }
 
 }
