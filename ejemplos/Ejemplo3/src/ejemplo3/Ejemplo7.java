@@ -25,6 +25,7 @@ public class Ejemplo7 {
         // >= 3 and < 5 Recuperación
         // > cualquier otra nota, sera nota fuera de rango
         // las notas no pueden pasar de 10
+        //si la nota fuera de rango es negativa hay que indicarlo
         double promedio = 2;
         
     
@@ -54,11 +55,21 @@ public class Ejemplo7 {
                
                 System.out.printf("La nota esta fuera de  "
                         + "rango: %.2f\n", promedio);
+                
+              
+            if (promedio >0)  {
+                System.out.printf("fuera de rango es negativa "
+                        + "promedio: %.2f\n", promedio);
+                } else {
+               
+                System.out.printf("La nota esta fuera de rango  "
+                        + "rango: %.2f\n", promedio);
             }
 
         }
     }
 
+}
 }
 }
 }
